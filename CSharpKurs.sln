@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flusskontrolle2", "Flusskon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden", "Methoden\Methoden.csproj", "{461AFBB3-6937-4330-B3E6-0BBE3A2F3B92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysUndListen", "ArraysUndListen\ArraysUndListen.csproj", "{446A74A4-FA0C-4090-8389-9645A022A2D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{461AFBB3-6937-4330-B3E6-0BBE3A2F3B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{461AFBB3-6937-4330-B3E6-0BBE3A2F3B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{461AFBB3-6937-4330-B3E6-0BBE3A2F3B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
