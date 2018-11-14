@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden", "Methoden\Method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysUndListen", "ArraysUndListen\ArraysUndListen.csproj", "{446A74A4-FA0C-4090-8389-9645A022A2D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objektorientierung", "Objektorientierung\Objektorientierung.csproj", "{D8E3CE8B-46AD-40C7-941D-91225BECE9DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446A74A4-FA0C-4090-8389-9645A022A2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E3CE8B-46AD-40C7-941D-91225BECE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E3CE8B-46AD-40C7-941D-91225BECE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E3CE8B-46AD-40C7-941D-91225BECE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E3CE8B-46AD-40C7-941D-91225BECE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
