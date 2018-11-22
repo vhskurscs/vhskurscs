@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfBeispiel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBeispiel"
+        mc:Ignorable="d"
+        Title="Rechtecksberechnung" Height="335.389" Width="216.086" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="MeinLabel" Content="Seite A" HorizontalAlignment="Left" Margin="17,14,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SeiteATextBox" HorizontalAlignment="Left" Height="23" Margin="75,14,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" KeyUp="SeiteATextBox_KeyUp"/>
+        <Label Content="Seite B" HorizontalAlignment="Left" Margin="17,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SeiteBTextBox" HorizontalAlignment="Left" Height="23" Margin="75,45,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" KeyUp="SeiteBTextBox_KeyUp"/>
+        <Label x:Name="MeinLabel_Copy" Content="Umfang" HorizontalAlignment="Left" Margin="17,109,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="UmfangTextBox" HorizontalAlignment="Left" Height="23" Margin="75,110,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Inhalt" HorizontalAlignment="Left" Margin="17,136,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="InhaltTextBox" HorizontalAlignment="Left" Height="23" Margin="75,140,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BeendenButton" Content="Beenden" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Width="185" Height="37" Click="BeendenButton_Click"/>
+
+    </Grid>
+</Window>

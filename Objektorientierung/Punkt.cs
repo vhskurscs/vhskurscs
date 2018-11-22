@@ -8,46 +8,28 @@ namespace Objektorientierung
 {
     class Punkt
     {
-        //Member-Variablen
-        private int x;
         //Property/Eigenschaft X
-        public int X
-        {
-            get
-            {
-                return this.x;
-            }
-            set
-            {
-                if (value < 0)
-                    this.x = 0;
-                else
-                    this.x = value;
-            }
-        }
-
-        private int y;
+        public int X { get; set; }
+        public int Y { get; set; }
 
         public Punkt(int x, int y)
         {
-            this.x = x;
-            this.y = y;
+            this.X = x;
+            this.Y = y;
         }
 
         public Punkt(int val)
         {
-            x = y = val; //Kurzform für unten
-            //x = val;
-            //y = val;
+            X = Y = val; //Kurzform für unten
         }
 
         public Punkt() : this(0)
         {
         }
 
-        public int Mult()
+        public virtual int Mult()
         {
-            return x * y;
+            return X * Y;
         }
 
     }

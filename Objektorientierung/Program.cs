@@ -10,13 +10,13 @@ namespace Objektorientierung
     {
         static void Main(string[] args)
         {
-            Punkt p = new Punkt(1, 2);
+            //Punkt p = new Punkt(1, 2);
 
-            Punkt p2 = new Punkt(12, 13);
+            //Punkt p2 = new Punkt(12, 13);
 
-            Punkt p3 = p;
+            //Punkt p3 = p;
 
-            Punkt p4 = new Punkt();
+            //Punkt p4 = new Punkt();
 
             #region Referenzbeispiele
             //Console.WriteLine("p.x = " + p.x);
@@ -60,16 +60,26 @@ namespace Objektorientierung
             //Console.WriteLine("p3.y = " + p3.y);
             #endregion
 
-            int mult = p.Mult();
+            //int mult = p.Mult();
 
 
-            Console.WriteLine("p.Mult(): " + mult);
-            Console.WriteLine("p2.Mult(): " + p2.Mult());
-            Console.WriteLine("p3.Mult(): " + p3.Mult());
+            //Console.WriteLine("p.Mult(): " + mult);
+            //Console.WriteLine("p2.Mult(): " + p2.Mult());
+            //Console.WriteLine("p3.Mult(): " + p3.Mult());
 
-            Console.WriteLine("p.X: " + p.X);
-            p.X = -100;
-            Console.WriteLine("p.X: " + p.X);
+            //Console.WriteLine("p.X: " + p.X);
+            //p.X = -100;
+            //Console.WriteLine("p.X: " + p.X);
+
+            Punkt3D punkt3d = new Punkt3D(1, 2, 3);
+            Console.WriteLine(punkt3d.Mult());
+
+            Punkt p2d = punkt3d;
+            Console.WriteLine(p2d.Mult());
+
+            Punkt punkt2d = new Punkt(5, 5);
+            Punkt3D p3d = (Punkt3D)punkt2d;
+
         }
 
         //public static void MachWas(Punkt p)
